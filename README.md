@@ -1,2 +1,3 @@
-# flutter_responsive_app
-Flutter Product Catalog App
+# Responsive Accessories Catalog
+
+This project is a responsive accessories catalog created using Flutter. It displays different accessories such as bags, watches, sunglasses, and backpacks. I used a list layout for screen widths below 600 pixels, a two-column grid for widths from 600 to 839 pixels, and a three-column grid for widths of 840 pixels and above. I also included a product detail screen and a light and dark mode option. These layouts allow the application to adjust to different screen sizes while keeping the products organized and easy to view.
