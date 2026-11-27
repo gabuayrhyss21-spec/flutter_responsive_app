@@ -1,3 +1,10 @@
+//AUTHOR: Rhyss M. Gabuay
+//SECTION: BSIT251B
+//PROGRAM: BSIT
+//DATE: 11/27/2026
+//DESC: It displays different accessories such as bags, watches, sunglasses, and backpacks. I used a list layout for screen widths below 600 pixels, 
+//a two-column grid for widths from 600 to 839 pixels, and a three-column grid for widths of 840 pixels and above. I also included a product detail 
+//screen and a light and dark mode option.
 
 import 'package:flutter/material.dart';
 
@@ -82,7 +89,7 @@ const List<Product> products = [
   ),
 ];
 
-// Main application
+// Main app
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -130,7 +137,7 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-// Main catalog screen
+// catalog screen
 class CatalogPage extends StatelessWidget {
   final bool isDarkMode;
   final VoidCallback onToggleTheme;
@@ -225,7 +232,7 @@ class ProductImage extends StatelessWidget {
   }
 }
 
-// Product tile for mobile list layout
+// Product tile for the mobile layout
 class ProductTile extends StatelessWidget {
   final Product product;
 
